@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum Kelly</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+</head>
+
+<body>
+    <header>
+        <!--NavBar Section-->
+        <div class="navbar">
+            <nav class="navigation hide" id="navigation">
+                <span class="close-icon" id="close-icon" onclick="showIconBar()"><i class="fa fa-times"></i></span>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html">Forums</a></li>
+                    <li class="nav-item"><a href="posts.html">Posts</a></li>
+                    <li class="nav-item"><a href="detail.html">Detail</a></li>
+                </ul>
+            </nav>
+            <a class="bar-icon" id="iconBar" onclick="hideIconBar()"><i class="fa fa-bars"></i></a>
+            <div class="brand">KELLY FORUM</div>
+        </div>
+        <!--SearchBox Section-->
+        <div class="search-box">
+            <div>
+                <select name="" id="">
+                    <option value="Everything">Everything</option>
+                    <option value="Titles">Titles</option>
+                    <option value="Descriptions">Descriptions</option>
+                </select>
+                <input type="text" name="q" placeholder="search ...">
+                <button><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="subforum">
+            <div class="subforum-title">
+                <h1>Thông báo</h1>
+            </div>
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <i class="fa fa-book center"></i>
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="../html/rule.html">Nội quy</a></h4>
+                    <p>Nội quy diễn đàn Cộng đồng KELLY</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>8.8K Lượt xem</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">19 Apr 2022</a></b><br>
+                    By <small><a href="">Admin</a></small>
+                </div>
+            </div>
+        </div>
+        <!--More-->
+        
+        <div class="subforum">
+            <div class="subforum-title">
+                <h1>Máy tính</h1>
+            </div>
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <i class="fa fa-comments"></i>
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="../html/ThuThuat.html">Thủ thuật - Kinh nghiệm</a></h4>
+                    <p>11 thủ thuật giúp bạn khắc phục lỗi Full Disk 100% trên Windows 10</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>24 Bài viết | 5 Chủ đề</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">30 Nov 2022</a></b><br>
+                    By <small><a href="">Bá Tĩnh</a></small>
+                </div>
+            </div>
+            <hr class="subforum-devider">
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <i class="fa fa-download"></i>
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="../html/Software.html">Phần mềm - Software</a></h4>
+                    <p>Tải Windows 11 ISO mới nhất, bao gồm ba phiên bản Official, Dev và Beta [Fshare/Drive]</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>12 Bài viết | 4 Chủ đề</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">30 Apr 2022</a></b><br>
+                    By <small><a href="">Trọng Tin</a></small>
+                </div>
+            </div>
+            <hr class="subforum-devider">
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <i class="fa fa-gamepad"></i>
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="../html/Games.html">Trò chơi - Games</a></h4>
+                    <p>Tải Game Ori and the Blind Forest Việt Hoá (Đã Test 100%)</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>14 Bài viết | 6 Chủ đề</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">27 Jun 2022</a></b><br>
+                    By <small><a href="">Ngọc Quân</a></small>
+                </div>
+            </div>
+            <hr class="subforum-devider">
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <i class="fa fa-keyboard"></i>
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="../html/Keyboard.html">Bàn phím - Chuột</a></h4>
+                    <p>	Chủ đề ưu tiên
+                        Trên tay bàn phím không dây Logitech K380 màu hồng: chỉ 579k, đáng đồng tiền, rất hợp làm quà tặng trong dịp Lễ cuối năm.</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>32 Bài viết | 8 Chủ đề</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">24 Sep 2022</a></b><br>
+                    By <small><a href="">Đoan Trang</a></small>
+                </div>
+            </div>
+            <hr class="subforum-devider">
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <i class="fa fa-headphones"></i>
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="../html/Audio.html">Âm thanh</a></h4>
+                    <p>Xiaomi Redmi hợp tác cùng Genshin Impact ra mắt tai nghe AirDots 3 Pro Special Edition</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>32 Bài viết |  8 Chủ đề</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">2 Oct 2022</a></b><br>
+                    By <small><a href="">Quốc Huy</a></small>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="subforum">
+            <div class="subforum-title">
+                <h1>Công nghệ tổng hợp</h1>
+            </div>
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <i class="fa fa-rocket"></i>
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="#">Thế giới công nghệ</a></h4>
+                    <p>Facebook chính thức đổi tên sang Meta với mục tiêu hướng đến nền tảng metaserve và các công nghệ tương lai.</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>12 Bài Viết | 3 Chủ đề</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="../html/Tech_World.html">29 Mar 2022</a></b><br>
+                    By <small><a href="">Nguyễn Cường</a></small>
+                </div>
+            </div>
+            <hr class="subforum-devider">
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <i class="fa fa-newspaper"></i>
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="../html/Tech_News.html">Chân dung công nghệ</a></h4>
+                    <p>Elon Musk đã học nhanh hơn và tiếp thu tốt hơn chúng ta như thế nào để thành công như ngày nay?</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>17 Bài Viết | 2 Chủ đề</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">12 May 2022</a></b><br>
+                    By <small><a href="">Bá Tĩnh</a></small>
+                </div>
+            </div>
+            <hr class="subforum-devider">
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <i class="far fa-image"></i>
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="../html/Photography.html">Nhiếp ảnh không chuyên</a></h4>
+                    <p>Nhiếp ảnh gia Steve McCurry chia sẻ 9 quy tắc cơ bản về bố cục trong nhiếp ảnh</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>35 ài Viết | 7 Chủ đề</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">29 April 2022</a></b><br>
+                    By <small><a href="">Thục Anh</a></small>
+                </div>
+            </div>
+            <hr class="subforum-devider">
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <i class="fa fa-mobile-alt"></i>
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="../html/Jailbreak.html">Jailbreak</a></h4>
+                    <p>3uTools - Công cụ miễn phí giúp quản lý, backup, jailbreak... iPhone, tiện lợi hơn iTools</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>73 Bài Viết | 9 Chủ đề</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">15 Jun 2022</a></b><br>
+                    By <small><a href="">Trọng Tin</a></small>
+                </div>
+            </div>
+        </div>
+        <!---->
+    </div>
+
+    <!-- Forum Info -->
+    <div class="forum-info">
+        <div class="chart">
+            Kelly Forum - Stats &nbsp;<i class="fa fa-chart-line"></i>
+        </div>
+        <span><u>1,298</u> Posts in <u>52</u> Topics by <u>9,256</u> Members.</span><br>
+        <span>Latest post: <b><a href="">11 thủ thuật...</a></b> on 30 Nov 2022 By <a href="">Bá Tĩnh</a></span>.<br>
+        <span>Check <a href="">the latest posts</a> .</span><br>
+    </div>
+
+    
+    <footer>
+        <span> Phan Trọng Tin | Phạm Bá Tĩnh </span>
+    </footer>
+    <script src="../js/main.js"></script>
+</body>
+</html>
